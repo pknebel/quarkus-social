@@ -1,10 +1,11 @@
-package io.github.pedro.quarkussocial.rest.dto;
+package io.github.pedro.quarkussocial.rest;
 
 import java.util.List;
 import java.util.Set;
 
 import io.github.pedro.quarkussocial.domain.model.User;
 import io.github.pedro.quarkussocial.domain.repository.UserRepository;
+import io.github.pedro.quarkussocial.rest.dto.CreateUserRequest;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import jakarta.validation.ConstraintViolation;
